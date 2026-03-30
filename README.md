@@ -68,6 +68,18 @@ Full Railway CLI integration for deploying and managing services.
 | `railway-central-station` | Search Railway community discussions |
 | `railway-railway-docs` | Fetch up-to-date Railway documentation |
 
+### Vercel (6 skills)
+React, Next.js, and Vercel deployment best practices from [Vercel Labs](https://github.com/vercel-labs/agent-skills).
+
+| Skill | What it does |
+|-------|-------------|
+| `deploy-to-vercel` | Deploy applications and websites to Vercel |
+| `vercel-cli-with-tokens` | Vercel CLI with token-based auth for CI/CD |
+| `vercel-react-best-practices` | React and Next.js performance optimization |
+| `vercel-composition-patterns` | Scalable React composition and component architecture |
+| `vercel-react-native-skills` | React Native and Expo mobile best practices |
+| `web-design-guidelines` | Web interface design and accessibility guidelines |
+
 ### Dev Workflow (1 skill)
 | Skill | What it does |
 |-------|-------------|
@@ -98,6 +110,10 @@ skills/
 │   └── ...
 ├── railway/
 │   ├── railway-new/
+│   │   └── SKILL.md
+│   └── ...
+├── vercel/
+│   ├── deploy-to-vercel/
 │   │   └── SKILL.md
 │   └── ...
 └── ...
