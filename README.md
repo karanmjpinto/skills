@@ -106,6 +106,17 @@ React, Next.js, and Vercel deployment best practices from [Vercel Labs](https://
 | `vercel-react-native-skills` | React Native and Expo mobile best practices |
 | `web-design-guidelines` | Web interface design and accessibility guidelines |
 
+### Obsidian (5 skills)
+Obsidian vault management and markdown skills from [kepano/obsidian-skills](https://github.com/kepano/obsidian-skills).
+
+| Skill | What it does |
+|-------|-------------|
+| `obsidian-cli` | Interact with Obsidian vaults — read, create, search, manage notes, tasks, properties, plugins |
+| `obsidian-markdown` | Create and edit Obsidian Flavored Markdown — wikilinks, embeds, callouts, properties |
+| `obsidian-bases` | Create and edit Obsidian Bases (.base files) with views, filters, formulas, summaries |
+| `json-canvas` | Create and edit JSON Canvas files (.canvas) — nodes, edges, groups, visual canvases |
+| `defuddle` | Extract clean markdown from web pages, removing clutter and navigation to save tokens |
+
 ### Efecto (3 skills)
 Visual design tools powered by [Efecto](https://efecto.dev) MCP integration.
 
