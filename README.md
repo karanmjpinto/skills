@@ -115,11 +115,48 @@ Visual design tools powered by [Efecto](https://efecto.dev) MCP integration.
 | `efecto-graphic-design` | Create presentations, posters, cards, infographics, and more |
 | `efecto-social-media` | Design social media assets for all major platforms |
 
-### Design (2 skills)
+### Impeccable (17 skills)
+Production-grade UI design toolkit from [pbakaus/impeccable](https://github.com/pbakaus/impeccable). Covers every phase of frontend design — from planning to polish.
+
+| Skill | What it does |
+|-------|-------------|
+| `impeccable` | Create distinctive, production-grade frontend interfaces with high design quality |
+| `shape` | Plan UX and UI for a feature before writing code with structured discovery |
+| `critique` | Evaluate design from a UX perspective with quantitative scoring |
+| `audit` | Run technical quality checks — accessibility, performance, theming, responsive |
+| `layout` | Improve layout, spacing, and visual rhythm |
+| `typeset` | Fix font choices, hierarchy, sizing, weight, and readability |
+| `colorize` | Add strategic color to monochromatic designs |
+| `animate` | Enhance features with purposeful animations and micro-interactions |
+| `polish` | Final quality pass — alignment, spacing, consistency, micro-details |
+| `adapt` | Make designs responsive across screen sizes and devices |
+| `optimize` | Diagnose and fix UI performance — loading, rendering, bundle size |
+| `clarify` | Improve UX copy, error messages, microcopy, and labels |
+| `distill` | Strip designs to their essence, remove unnecessary complexity |
+| `delight` | Add moments of joy and personality to interfaces |
+| `bolder` | Amplify safe designs to be more visually interesting |
+| `quieter` | Tone down visually aggressive designs while preserving quality |
+| `overdrive` | Push interfaces past limits — shaders, spring physics, 60fps animations |
+
+### Taste (7 skills)
+High-end visual design skills from [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill). Anti-generic UI standards.
+
+| Skill | What it does |
+|-------|-------------|
+| `design-taste-frontend` | Senior UI/UX engineering with metric-based rules and strict component architecture |
+| `high-end-visual-design` | Design like a high-end agency — exact fonts, spacing, shadows, animations |
+| `redesign-existing-projects` | Upgrade existing apps to premium quality, identify generic AI patterns |
+| `industrial-brutalist-ui` | Raw mechanical interfaces — Swiss typography meets military terminal aesthetics |
+| `minimalist-ui` | Clean editorial-style interfaces — warm monochrome, typographic contrast, bento grids |
+| `stitch-design-taste` | Semantic design system for Google Stitch with premium standards |
+| `full-output-enforcement` | Override LLM truncation — enforce complete code generation, ban placeholders |
+
+### Design (3 skills)
 | Skill | What it does |
 |-------|-------------|
 | `ui-ux-pro-max` | UI/UX design intelligence — 50+ styles, 161 palettes, 57 font pairings, 99 UX guidelines across 10 stacks |
 | `sketch-prompt` | Convert text/notes into conceptual sketch images with ComfyUI + Flux |
+| `emil-design-eng` | Emil Kowalski's philosophy on UI polish, component design, and animation decisions |
 
 ### Dev Workflow (1 skill)
 | Skill | What it does |
@@ -133,10 +170,11 @@ Visual design tools powered by [Efecto](https://efecto.dev) MCP integration.
 | `pitch-deck` | Build investor-ready pitch decks as PPTX from meeting notes |
 | `technical-dd` | Generate investment-grade Technical Due Diligence reports |
 
-### Meta (1 skill)
+### Meta (2 skills)
 | Skill | What it does |
 |-------|-------------|
 | `skillshare` | Manage and sync skills across 50+ AI tools from a single source |
+| `find-skills` | Discover and install agent skills from the skills marketplace |
 
 ## How Skills Work
 
