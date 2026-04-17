@@ -162,12 +162,13 @@ High-end visual design skills from [Leonxlnx/taste-skill](https://github.com/Leo
 | `stitch-design-taste` | Semantic design system for Google Stitch with premium standards |
 | `full-output-enforcement` | Override LLM truncation — enforce complete code generation, ban placeholders |
 
-### Design (3 skills)
+### Design (4 skills)
 | Skill | What it does |
 |-------|-------------|
 | `ui-ux-pro-max` | UI/UX design intelligence — 50+ styles, 161 palettes, 57 font pairings, 99 UX guidelines across 10 stacks |
 | `sketch-prompt` | Convert text/notes into conceptual sketch images with ComfyUI + Flux |
 | `emil-design-eng` | Emil Kowalski's philosophy on UI polish, component design, and animation decisions |
+| `architecture-diagram` | Create professional dark-themed architecture/infrastructure/network diagrams as standalone HTML + SVG |
 
 ### Dev Workflow (1 skill)
 | Skill | What it does |
