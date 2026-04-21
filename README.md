@@ -20,6 +20,8 @@ This repo is a Claude Code plugin marketplace. Team members register it once, th
 /plugin install utopia-deploy-pack@skills      # Railway + Vercel + production
 /plugin install utopia-ml-pack@skills          # HuggingFace & ML tools
 /plugin install utopia-content-pack@skills     # Obsidian & research
+/plugin install utopia-finance-pack@skills     # DCF, LBO, comps, tear sheets, deck work
+/plugin install utopia-markets-pack@skills     # Bonds, FX, options, macro rates, equity research
 ```
 
 **3. Update packs as they change:**
@@ -80,6 +82,8 @@ Each pack bundles a set of skills for a specific workflow. Install only what you
 | **utopia-deploy-pack** | 25 | Ship to production — Railway, Vercel, CI/CD, monitoring, deployment readiness |
 | **utopia-ml-pack** | 11 | ML workflows — HuggingFace training, evals, datasets, Transformers.js |
 | **utopia-content-pack** | 5 | Knowledge management — Obsidian vaults, markdown, canvases, web extraction |
+| **utopia-finance-pack** | 16 | Financial modeling & IB — DCF, LBO, comps, tear sheets, deck work. From Anthropic's financial-services-plugins. |
+| **utopia-markets-pack** | 10 | Capital markets — bonds, FX, options, swaps, macro rates, equity research. For public-markets fellows. |
 
 See [`packs.config.json`](./packs.config.json) for the exact skill list in each pack.
 
@@ -262,11 +266,48 @@ High-end visual design skills from [Leonxlnx/taste-skill](https://github.com/Leo
 |-------|-------------|
 | `interface-craft` | Build polished, animated React interfaces with Storyboard Animation DSL, DialKit controls, and Design Critique methodology. By Josh Puckett. |
 
+### Finance (26 skills)
+Financial modeling, IB toolkit, capital markets, and equity research — from [Anthropic's financial-services-plugins](https://github.com/anthropics/financial-services-plugins). Split into two packs: `utopia-finance-pack` (VC/DD-focused) and `utopia-markets-pack` (public-markets/trading).
+
+**Financial modeling & IB:**
+| Skill | What it does |
+|-------|-------------|
+| `3-statement-model` | Populate Income Statement, Balance Sheet, and Cash Flow templates |
+| `dcf-model` | DCF valuation with SEC data, projections, WACC, sensitivity analysis |
+| `lbo-model` | LBO model template completion for PE transactions |
+| `comps-analysis` | Comparable company analysis with operating metrics and multiples |
+| `competitive-analysis` | Competitive landscape decks with market positioning |
+| `audit-xls` | Audit spreadsheet formulas, errors, and financial-model integrity (BS balance, cash tie-out) |
+| `clean-data-xls` | Clean messy spreadsheet data — trim, standardize, de-duplicate |
+| `datapack-builder` | Build IC-ready data packs from CIMs, memorandums, SEC filings |
+| `tear-sheet` | Generate professional company tear sheets via Kensho S&P Capital IQ |
+| `earnings-analysis` | 8-12 page quarterly earnings update reports |
+| `funding-digest` | One-page slide summarizing recent funding rounds across sectors |
+| `deck-refresh` | Update decks with new numbers — quarterly refresh, comp rolls |
+| `ib-check-deck` | Review pitch decks for consistency, formatting, IB standards |
+| `ib-pitch-deck` | Populate investment banking pitch deck templates from source data |
+| `ppt-template-creator` | Create reusable PPT template skills from user templates |
+| `fsi-strip-profile` | Create IB strip profiles (company profiles) for pitch books |
+
+**Capital markets:**
+| Skill | What it does |
+|-------|-------------|
+| `bond-futures-basis` | Analyze bond futures basis, cheapest-to-deliver, delivery option |
+| `bond-relative-value` | Bond richness/cheapness analysis with spread decomposition |
+| `equity-research` | Equity research snapshots with consensus, fundamentals, macro |
+| `fixed-income-portfolio` | Bond portfolio review, duration, DV01, cashflow analysis |
+| `fx-carry-trade` | FX carry evaluation with spot/forwards, rate differentials |
+| `macro-rates-monitor` | Macro dashboards with yield curves, breakevens, swap rates |
+| `option-vol-analysis` | Option volatility, Greeks, implied vs realized |
+| `swap-curve-strategy` | Swap curve analysis, spreads, curve trade opportunities |
+| `earnings-preview-single` | 4-5 page equity research earnings preview |
+| `initiating-coverage` | Institutional-quality equity research initiation reports |
+
 ### Personal (3 skills)
 | Skill | What it does |
 |-------|-------------|
 | `kmjp-social` | Generate LinkedIn posts and X threads from raw notes |
-| `pitch-deck` | Build investor-ready pitch decks as PPTX from meeting notes |
+| `pitch-deck` | Build Utopia-branded investor pitch decks as PPTX from meeting notes |
 | `technical-dd` | Generate investment-grade Technical Due Diligence reports |
 
 ### Meta (2 skills)

@@ -36,6 +36,18 @@
       "source": "./plugins/utopia-content-pack",
       "description": "Knowledge management and research — Obsidian vaults, markdown, canvases, and web extraction for fellows",
       "version": "1.0.0"
+    },
+    {
+      "name": "utopia-finance-pack",
+      "source": "./plugins/utopia-finance-pack",
+      "description": "Financial modeling and IB toolkit for DD, valuations, and pitch work — DCF, LBO, comps, earnings analysis, tear sheets, deck work. Skills from Anthropic's financial-services-plugins.",
+      "version": "1.0.0"
+    },
+    {
+      "name": "utopia-markets-pack",
+      "source": "./plugins/utopia-markets-pack",
+      "description": "Capital markets and trading skills — bonds, FX, options, swaps, macro rates, equity research. For public-markets fellows and sell-side work.",
+      "version": "1.0.0"
     }
   ]
 }

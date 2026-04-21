@@ -1,0 +1,7 @@
+{
+  "name": "utopia-markets-pack",
+  "description": "Capital markets and trading skills — bonds, FX, options, swaps, macro rates, equity research. For public-markets fellows and sell-side work.",
+  "version": "1.0.0",
+  "author": { "name": "Karan Pinto" },
+  "keywords": ["markets","trading","bonds","fx","options","rates"]
+}

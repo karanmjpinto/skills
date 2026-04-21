@@ -129,6 +129,48 @@
         "json-canvas",
         "defuddle"
       ]
+    },
+    {
+      "name": "utopia-finance-pack",
+      "description": "Financial modeling and IB toolkit for DD, valuations, and pitch work — DCF, LBO, comps, earnings analysis, tear sheets, deck work. Skills from Anthropic's financial-services-plugins.",
+      "version": "1.0.0",
+      "keywords": ["finance", "dd", "valuation", "modeling", "ib", "investment"],
+      "skills": [
+        "3-statement-model",
+        "dcf-model",
+        "lbo-model",
+        "comps-analysis",
+        "competitive-analysis",
+        "audit-xls",
+        "clean-data-xls",
+        "datapack-builder",
+        "tear-sheet",
+        "earnings-analysis",
+        "funding-digest",
+        "deck-refresh",
+        "ib-check-deck",
+        "ib-pitch-deck",
+        "ppt-template-creator",
+        "fsi-strip-profile"
+      ]
+    },
+    {
+      "name": "utopia-markets-pack",
+      "description": "Capital markets and trading skills — bonds, FX, options, swaps, macro rates, equity research. For public-markets fellows and sell-side work.",
+      "version": "1.0.0",
+      "keywords": ["markets", "trading", "bonds", "fx", "options", "rates"],
+      "skills": [
+        "bond-futures-basis",
+        "bond-relative-value",
+        "equity-research",
+        "fixed-income-portfolio",
+        "fx-carry-trade",
+        "macro-rates-monitor",
+        "option-vol-analysis",
+        "swap-curve-strategy",
+        "earnings-preview-single",
+        "initiating-coverage"
+      ]
     }
   ]
 }
