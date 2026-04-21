@@ -22,6 +22,13 @@ This repo is a Claude Code plugin marketplace. Team members register it once, th
 /plugin install utopia-content-pack@skills     # Obsidian & research
 /plugin install utopia-finance-pack@skills     # DCF, LBO, comps, tear sheets, deck work
 /plugin install utopia-markets-pack@skills     # Bonds, FX, options, macro rates, equity research
+
+# Venture Engine packs — for founders and fellows building companies
+/plugin install utopia-discovery-pack@skills       # Value & IP creation — discovery, JTBD, PRDs, canvases
+/plugin install utopia-narrative-pack@skills       # GTM & narrative — positioning, copy, content, hook
+/plugin install utopia-distribution-pack@skills    # Partners & trust — BD, outreach, CRM, pipeline
+/plugin install utopia-retention-pack@skills       # Retention & value scaling — metrics, CAC/LTV, churn
+/plugin install utopia-ops-pack@skills             # Core ops — legal, hiring, pricing, valuation
 ```
 
 **3. Update packs as they change:**
@@ -75,6 +82,8 @@ cp -r skills/production-readiness/* ~/.claude/skills/
 
 Each pack bundles a set of skills for a specific workflow. Install only what you need — keeps your context lean.
 
+### Studio Engine packs (internal team & DD work)
+
 | Pack | Skills | Use case |
 |------|--------|----------|
 | **utopia-dd-pack** | 6 | Technical due diligence — assess whether a startup's tech works, scales, and is secure |
@@ -82,8 +91,36 @@ Each pack bundles a set of skills for a specific workflow. Install only what you
 | **utopia-deploy-pack** | 25 | Ship to production — Railway, Vercel, CI/CD, monitoring, deployment readiness |
 | **utopia-ml-pack** | 11 | ML workflows — HuggingFace training, evals, datasets, Transformers.js |
 | **utopia-content-pack** | 5 | Knowledge management — Obsidian vaults, markdown, canvases, web extraction |
-| **utopia-finance-pack** | 16 | Financial modeling & IB — DCF, LBO, comps, tear sheets, deck work. From Anthropic's financial-services-plugins. |
-| **utopia-markets-pack** | 10 | Capital markets — bonds, FX, options, swaps, macro rates, equity research. For public-markets fellows. |
+| **utopia-finance-pack** | 16 | Financial modeling & IB — DCF, LBO, comps, tear sheets, deck work |
+| **utopia-markets-pack** | 10 | Capital markets — bonds, FX, options, swaps, macro rates, equity research |
+
+### Venture Engine packs (for founders & portfolio companies)
+
+Mapped directly to the Utopia Venture Engine framework — each pack covers one layer of building a company.
+
+| Pack | Skills | Venture Engine layer |
+|------|--------|----------------------|
+| **utopia-discovery-pack** | 23 | **Value & IP Creation** — discovery interviews, JTBD, opportunity solution trees, problem framing, PRDs, canvases |
+| **utopia-narrative-pack** | 24 | **Go To Market & Narrative** — positioning, copywriting, content strategy, GTM motions, brand narrative, hook |
+| **utopia-distribution-pack** | 25 | **Partners & Trust** — BD agents, outbound sales, cold outreach, lead enrichment, pipeline management, CRM |
+| **utopia-retention-pack** | 28 | **Retention & Value Scaling** — North Star metrics, unit economics (CAC, LTV, cohorts), churn prevention, onboarding CRO |
+| **utopia-ops-pack** | 14 | **Core Operations** — legal (NDA, privacy policy), hiring, pricing, capital structure, valuation |
+
+Skills are sourced from the best public repos for each layer:
+- **Discovery:** [phuryn/pm-skills](https://github.com/phuryn/pm-skills), [deanpeters/Product-Manager-Skills](https://github.com/deanpeters/Product-Manager-Skills)
+- **Narrative:** [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills), [chadboyda/agent-gtm-skills](https://github.com/chadboyda/agent-gtm-skills)
+- **Distribution:** [gtmagents/gtm-agents](https://github.com/gtmagents/gtm-agents), [chadboyda/agent-gtm-skills](https://github.com/chadboyda/agent-gtm-skills), [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills)
+- **Retention:** [phuryn/pm-skills](https://github.com/phuryn/pm-skills), [lyndonkl/claude](https://github.com/lyndonkl/claude), [Digidai/product-manager-skills](https://github.com/Digidai/product-manager-skills), [gtmagents/gtm-agents](https://github.com/gtmagents/gtm-agents)
+- **Ops:** [phuryn/pm-skills](https://github.com/phuryn/pm-skills), [lyndonkl/claude](https://github.com/lyndonkl/claude)
+
+### Honest gap map
+
+The public ecosystem is richest for GTM and product discovery, decent for financial modeling, and weakest for:
+
+1. **Agentic customer ops & NPS tracking** — no strong dedicated skill repo exists
+2. **GCC/MENA-aware legal, compliance, and cap table** — nothing jurisdiction-specific
+
+Both are candidates to build as proprietary Studio skills — high-value, jurisdiction-specific, unlikely to appear in the open ecosystem.
 
 See [`packs.config.json`](./packs.config.json) for the exact skill list in each pack.
 

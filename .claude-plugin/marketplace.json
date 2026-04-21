@@ -48,6 +48,36 @@
       "source": "./plugins/utopia-markets-pack",
       "description": "Capital markets and trading skills — bonds, FX, options, swaps, macro rates, equity research. For public-markets fellows and sell-side work.",
       "version": "1.0.0"
+    },
+    {
+      "name": "utopia-discovery-pack",
+      "source": "./plugins/utopia-discovery-pack",
+      "description": "Venture Engine — Value & IP Creation. Discovery interviews, problem framing, jobs-to-be-done, opportunity solution trees, PRDs, and first-iteration canvases for founders testing problem-market fit.",
+      "version": "1.0.0"
+    },
+    {
+      "name": "utopia-narrative-pack",
+      "source": "./plugins/utopia-narrative-pack",
+      "description": "Venture Engine — Go To Market & Narrative. Positioning, hook, copywriting, content strategy, brand narrative, and GTM planning for founders building their market story.",
+      "version": "1.0.0"
+    },
+    {
+      "name": "utopia-distribution-pack",
+      "source": "./plugins/utopia-distribution-pack",
+      "description": "Venture Engine — Partners & Trust. BD, sales prospecting, cold outreach, pipeline management, deal desk, and CRM optimization for portfolio companies building their early sales stack.",
+      "version": "1.0.0"
+    },
+    {
+      "name": "utopia-retention-pack",
+      "source": "./plugins/utopia-retention-pack",
+      "description": "Venture Engine — Retention & Value Scaling. Unit economics (CAC, LTV, cohorts), North Star metrics, growth loops, onboarding CRO, churn prevention, and customer ops for founders scaling retained revenue.",
+      "version": "1.0.0"
+    },
+    {
+      "name": "utopia-ops-pack",
+      "source": "./plugins/utopia-ops-pack",
+      "description": "Venture Engine — Core Operations. Legal docs (NDA, privacy policy), hiring, pricing, strategic roadmap, capital structure, and valuation for founders building the business foundation.",
+      "version": "1.0.0"
     }
   ]
 }

@@ -1,0 +1,7 @@
+{
+  "name": "utopia-retention-pack",
+  "description": "Venture Engine — Retention & Value Scaling. Unit economics (CAC, LTV, cohorts), North Star metrics, growth loops, onboarding CRO, churn prevention, and customer ops for founders scaling retained revenue.",
+  "version": "1.0.0",
+  "author": { "name": "Karan Pinto" },
+  "keywords": ["retention","metrics","unit-economics","cac","ltv","churn","growth","cohort"]
+}
