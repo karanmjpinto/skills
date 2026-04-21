@@ -107,6 +107,26 @@ Then `./build-packs.sh && git add -A && git commit -m "Add research pack" && git
 
 Requires `jq` (`brew install jq`).
 
+## For Contributors & Fellows
+
+Want to propose a new skill, or understand the curation process? See:
+
+- **[`CONTRIBUTING.md`](./CONTRIBUTING.md)** — sandbox → pack graduation flow, curation principles, how to write good skills
+- **[`SKILL_TAXONOMY.md`](./SKILL_TAXONOMY.md)** — all 82 skills mapped to the 9-category taxonomy from Anthropic's Skills guide. Shows gaps (verification, data retrieval, runbooks) and overlaps.
+- **[`skills/sandbox/`](./skills/sandbox/)** — staging area for experimental skills before they graduate
+- **[`hooks/README.md`](./hooks/README.md)** — optional skill-usage logging hook, so you can see which skills are actually used
+
+## Skill Composition
+
+Some skills call other skills. For example, `impeccable` orchestrates the full design pipeline by invoking `shape` (plan) → `layout` → `typeset` → `colorize` → `animate` → `critique` → `audit` → `polish`.
+
+This matters when choosing packs:
+- Installing a single skill that depends on others may silently degrade if the dependencies aren't installed
+- `utopia-design-pack` bundles all 17 Impeccable skills together so composition works end-to-end
+- If you cherry-pick, check the skill's SKILL.md for "related skills" references
+
+There's no explicit dependency system yet — Claude invokes related skills by name, which only works if they're installed.
+
 ## What's Included
 
 ### Production Readiness (9 skills)
