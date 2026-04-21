@@ -5,78 +5,84 @@
     "email": "karanmjpinto@gmail.com",
     "url": "https://github.com/karanmjpinto"
   },
-  "description": "Karan Pinto's curated skill marketplace for Utopia Capital teams and fellows",
+  "description": "Karan Pinto's skill marketplace for Utopia Capital. Two tracks: Studio Cobuild packs (for fellows, mapped to M1-M9 modules) and Funds packs (for internal investment and DD work).",
   "plugins": [
     {
-      "name": "utopia-dd-pack",
-      "source": "./plugins/utopia-dd-pack",
-      "description": "Technical due diligence and investment evaluation — assess whether a startup's tech works, scales, and is secure",
+      "name": "utopia-studio-cobuild-onboarding",
+      "source": "./plugins/utopia-studio-cobuild-onboarding",
+      "description": "M1 Fellow Onboarding — orientation, market sizing, stakeholder mapping, frameworks for getting started. Install this first when a new fellow joins.",
       "version": "1.0.0"
     },
     {
-      "name": "utopia-design-pack",
-      "source": "./plugins/utopia-design-pack",
-      "description": "Full UI/UX design toolkit — 32 skills spanning planning, building, critiquing, and polishing frontend interfaces",
+      "name": "utopia-studio-cobuild-discovery",
+      "source": "./plugins/utopia-studio-cobuild-discovery",
+      "description": "M2 Discovery & Problem Validation — customer interviews, JTBD, opportunity solution trees, problem framing, assumption mapping, and first-iteration canvases.",
       "version": "1.0.0"
     },
     {
-      "name": "utopia-deploy-pack",
-      "source": "./plugins/utopia-deploy-pack",
-      "description": "Ship to production — Railway, Vercel, CI/CD, monitoring, and deployment readiness",
+      "name": "utopia-studio-cobuild-concept",
+      "source": "./plugins/utopia-studio-cobuild-concept",
+      "description": "M3 Concept & Solution Design — turn validated problems into solutions. PRDs, user stories, recommendation canvases, prototyping, early design critiques, and architecture sketches.",
       "version": "1.0.0"
     },
     {
-      "name": "utopia-ml-pack",
-      "source": "./plugins/utopia-ml-pack",
-      "description": "Machine learning and AI workflows — HuggingFace training, evals, datasets, and Transformers.js",
+      "name": "utopia-studio-cobuild-legal",
+      "source": "./plugins/utopia-studio-cobuild-legal",
+      "description": "M4 Legal & Entity Setup — NDAs, privacy policies, resume/hiring docs, press release templates. GAP: MENA/GCC jurisdiction-aware cap table and entity setup — build as proprietary Studio skill.",
       "version": "1.0.0"
     },
     {
-      "name": "utopia-content-pack",
-      "source": "./plugins/utopia-content-pack",
-      "description": "Knowledge management and research — Obsidian vaults, markdown, canvases, and web extraction for fellows",
+      "name": "utopia-studio-cobuild-brand",
+      "source": "./plugins/utopia-studio-cobuild-brand",
+      "description": "M5 Brand & Identity — visual identity, brand narrative, naming, voice, and social/graphic design assets. Covers Efecto design, Impeccable, and brand voice frameworks.",
       "version": "1.0.0"
     },
     {
-      "name": "utopia-finance-pack",
-      "source": "./plugins/utopia-finance-pack",
-      "description": "Financial modeling and IB toolkit for DD, valuations, and pitch work — DCF, LBO, comps, earnings analysis, tear sheets, deck work. Skills from Anthropic's financial-services-plugins.",
+      "name": "utopia-studio-cobuild-product",
+      "source": "./plugins/utopia-studio-cobuild-product",
+      "description": "M6 Product & Technology — build the actual product. Design polish (Impeccable suite), deployment (Railway, Vercel), production readiness, ML integration, and architecture diagrams. For deep specialization see the Railway, Vercel, or ML-specific skills in the /skills folder.",
       "version": "1.0.0"
     },
     {
-      "name": "utopia-markets-pack",
-      "source": "./plugins/utopia-markets-pack",
-      "description": "Capital markets and trading skills — bonds, FX, options, swaps, macro rates, equity research. For public-markets fellows and sell-side work.",
+      "name": "utopia-studio-cobuild-gtm",
+      "source": "./plugins/utopia-studio-cobuild-gtm",
+      "description": "M7 Go-to-Market — positioning, hook, copywriting, content strategy, BD, outbound sales, and distribution. Covers the full launch-to-growth motion for founders.",
       "version": "1.0.0"
     },
     {
-      "name": "utopia-discovery-pack",
-      "source": "./plugins/utopia-discovery-pack",
-      "description": "Venture Engine — Value & IP Creation. Discovery interviews, problem framing, jobs-to-be-done, opportunity solution trees, PRDs, and first-iteration canvases for founders testing problem-market fit.",
+      "name": "utopia-studio-cobuild-fundraising",
+      "source": "./plugins/utopia-studio-cobuild-fundraising",
+      "description": "M8 Fundraising Prep — investor-ready materials. Pitch decks (Utopia-branded for syndication or adapted for portco use), financial models, valuations, competitive analysis, and data packs.",
       "version": "1.0.0"
     },
     {
-      "name": "utopia-narrative-pack",
-      "source": "./plugins/utopia-narrative-pack",
-      "description": "Venture Engine — Go To Market & Narrative. Positioning, hook, copywriting, content strategy, brand narrative, and GTM planning for founders building their market story.",
+      "name": "utopia-studio-cobuild-ops",
+      "source": "./plugins/utopia-studio-cobuild-ops",
+      "description": "M9 Operations & Finance — ongoing ops once the business is running. Metrics, unit economics, retention, churn, onboarding CRO, pricing, roadmap, and customer ops for founders scaling retained revenue.",
       "version": "1.0.0"
     },
     {
-      "name": "utopia-distribution-pack",
-      "source": "./plugins/utopia-distribution-pack",
-      "description": "Venture Engine — Partners & Trust. BD, sales prospecting, cold outreach, pipeline management, deal desk, and CRM optimization for portfolio companies building their early sales stack.",
+      "name": "utopia-funds-dd",
+      "source": "./plugins/utopia-funds-dd",
+      "description": "Utopia Funds — Technical Due Diligence. Internal skills for evaluating startups before investment: tech stack audits, security review, cost analysis, DB/infra review, and TDD report generation.",
       "version": "1.0.0"
     },
     {
-      "name": "utopia-retention-pack",
-      "source": "./plugins/utopia-retention-pack",
-      "description": "Venture Engine — Retention & Value Scaling. Unit economics (CAC, LTV, cohorts), North Star metrics, growth loops, onboarding CRO, churn prevention, and customer ops for founders scaling retained revenue.",
+      "name": "utopia-funds-finance",
+      "source": "./plugins/utopia-funds-finance",
+      "description": "Utopia Funds — Financial Modeling & IB Toolkit. Internal skills for valuation, deal modeling, comp analysis, earnings analysis, tear sheets, and pitch deck population for the investment team.",
       "version": "1.0.0"
     },
     {
-      "name": "utopia-ops-pack",
-      "source": "./plugins/utopia-ops-pack",
-      "description": "Venture Engine — Core Operations. Legal docs (NDA, privacy policy), hiring, pricing, strategic roadmap, capital structure, and valuation for founders building the business foundation.",
+      "name": "utopia-funds-markets",
+      "source": "./plugins/utopia-funds-markets",
+      "description": "Utopia Funds — Capital Markets. Public markets and trading skills for fellows transitioning into sell-side roles: bonds, FX, options, swaps, macro rates, equity research. Not for VC workflows.",
+      "version": "1.0.0"
+    },
+    {
+      "name": "utopia-funds-research",
+      "source": "./plugins/utopia-funds-research",
+      "description": "Utopia Funds — Research & Knowledge Management. Internal skills for the investment team's research workflow: Obsidian vault management, markdown notes, canvases, web extraction, and papers.",
       "version": "1.0.0"
     }
   ]

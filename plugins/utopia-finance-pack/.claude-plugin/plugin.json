@@ -1,7 +1,0 @@
-{
-  "name": "utopia-finance-pack",
-  "description": "Financial modeling and IB toolkit for DD, valuations, and pitch work — DCF, LBO, comps, earnings analysis, tear sheets, deck work. Skills from Anthropic's financial-services-plugins.",
-  "version": "1.0.0",
-  "author": { "name": "Karan Pinto" },
-  "keywords": ["finance","dd","valuation","modeling","ib","investment"]
-}

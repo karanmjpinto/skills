@@ -1,7 +1,0 @@
-{
-  "name": "utopia-ops-pack",
-  "description": "Venture Engine — Core Operations. Legal docs (NDA, privacy policy), hiring, pricing, strategic roadmap, capital structure, and valuation for founders building the business foundation.",
-  "version": "1.0.0",
-  "author": { "name": "Karan Pinto" },
-  "keywords": ["ops","legal","hiring","pricing","fundraising","valuation"]
-}

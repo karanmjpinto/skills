@@ -1,7 +1,0 @@
-{
-  "name": "utopia-ml-pack",
-  "description": "Machine learning and AI workflows — HuggingFace training, evals, datasets, and Transformers.js",
-  "version": "1.0.0",
-  "author": { "name": "Karan Pinto" },
-  "keywords": ["ml","ai","huggingface","training","transformers"]
-}

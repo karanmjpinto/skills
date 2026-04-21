@@ -1,7 +1,0 @@
-{
-  "name": "utopia-deploy-pack",
-  "description": "Ship to production — Railway, Vercel, CI/CD, monitoring, and deployment readiness",
-  "version": "1.0.0",
-  "author": { "name": "Karan Pinto" },
-  "keywords": ["deployment","railway","vercel","production","devops"]
-}

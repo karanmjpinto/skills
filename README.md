@@ -14,21 +14,25 @@ This repo is a Claude Code plugin marketplace. Team members register it once, th
 
 **2. Install a pack:**
 
-```
-/plugin install utopia-dd-pack@skills          # Due diligence & investment eval
-/plugin install utopia-design-pack@skills      # 32 UI/UX design skills
-/plugin install utopia-deploy-pack@skills      # Railway + Vercel + production
-/plugin install utopia-ml-pack@skills          # HuggingFace & ML tools
-/plugin install utopia-content-pack@skills     # Obsidian & research
-/plugin install utopia-finance-pack@skills     # DCF, LBO, comps, tear sheets, deck work
-/plugin install utopia-markets-pack@skills     # Bonds, FX, options, macro rates, equity research
+Two tracks: **Studio Cobuild packs** for fellows (mapped to M1–M9 modules) and **Funds packs** for internal Utopia Capital work.
 
-# Venture Engine packs — for founders and fellows building companies
-/plugin install utopia-discovery-pack@skills       # Value & IP creation — discovery, JTBD, PRDs, canvases
-/plugin install utopia-narrative-pack@skills       # GTM & narrative — positioning, copy, content, hook
-/plugin install utopia-distribution-pack@skills    # Partners & trust — BD, outreach, CRM, pipeline
-/plugin install utopia-retention-pack@skills       # Retention & value scaling — metrics, CAC/LTV, churn
-/plugin install utopia-ops-pack@skills             # Core ops — legal, hiring, pricing, valuation
+```
+# Studio Cobuild — for fellows building companies (M1–M9)
+/plugin install utopia-studio-cobuild-onboarding@skills     # M1 Fellow Onboarding
+/plugin install utopia-studio-cobuild-discovery@skills      # M2 Discovery & Problem Validation
+/plugin install utopia-studio-cobuild-concept@skills        # M3 Concept & Solution Design
+/plugin install utopia-studio-cobuild-legal@skills          # M4 Legal & Entity Setup
+/plugin install utopia-studio-cobuild-brand@skills          # M5 Brand & Identity
+/plugin install utopia-studio-cobuild-product@skills        # M6 Product & Technology
+/plugin install utopia-studio-cobuild-gtm@skills            # M7 Go-to-Market
+/plugin install utopia-studio-cobuild-fundraising@skills    # M8 Fundraising Prep
+/plugin install utopia-studio-cobuild-ops@skills            # M9 Operations & Finance
+
+# Funds — for Utopia's internal investment and DD team
+/plugin install utopia-funds-dd@skills          # Technical Due Diligence
+/plugin install utopia-funds-finance@skills     # Financial modeling & IB toolkit
+/plugin install utopia-funds-markets@skills     # Capital markets & trading
+/plugin install utopia-funds-research@skills    # Obsidian, markdown, web research
 ```
 
 **3. Update packs as they change:**
@@ -82,43 +86,50 @@ cp -r skills/production-readiness/* ~/.claude/skills/
 
 Each pack bundles a set of skills for a specific workflow. Install only what you need — keeps your context lean.
 
-### Studio Engine packs (internal team & DD work)
+### Studio Cobuild packs (for fellows, mapped to M1–M9 modules)
 
-| Pack | Skills | Use case |
-|------|--------|----------|
-| **utopia-dd-pack** | 6 | Technical due diligence — assess whether a startup's tech works, scales, and is secure |
-| **utopia-design-pack** | 32 | Full UI/UX toolkit — plan, build, critique, and polish frontend interfaces |
-| **utopia-deploy-pack** | 25 | Ship to production — Railway, Vercel, CI/CD, monitoring, deployment readiness |
-| **utopia-ml-pack** | 11 | ML workflows — HuggingFace training, evals, datasets, Transformers.js |
-| **utopia-content-pack** | 5 | Knowledge management — Obsidian vaults, markdown, canvases, web extraction |
-| **utopia-finance-pack** | 16 | Financial modeling & IB — DCF, LBO, comps, tear sheets, deck work |
-| **utopia-markets-pack** | 10 | Capital markets — bonds, FX, options, swaps, macro rates, equity research |
+Each pack maps 1:1 to a module in the Studio's Cobuild curriculum. Fellows install the pack for the module they're working on — keeps context lean and focused on the current stage.
 
-### Venture Engine packs (for founders & portfolio companies)
+| Module | Pack | # | What it covers |
+|--------|------|---|----------------|
+| **M1** | `utopia-studio-cobuild-onboarding` | 12 | Fellow Onboarding — market sizing (TAM/SAM/SOM), stakeholder mapping, PESTEL/Porter/SWOT, prioritization frameworks |
+| **M2** | `utopia-studio-cobuild-discovery` | 19 | Discovery & Problem Validation — customer interviews, JTBD, opportunity solution trees, assumption mapping, canvases |
+| **M3** | `utopia-studio-cobuild-concept` | 21 | Concept & Solution Design — PRDs, user stories, recommendation canvases, business models, prototyping, architecture diagrams |
+| **M4** | `utopia-studio-cobuild-legal` | 5 | Legal & Entity Setup — NDA, privacy policy, hiring docs, press release. *Gap: MENA/GCC jurisdiction* |
+| **M5** | `utopia-studio-cobuild-brand` | 16 | Brand & Identity — visual identity (Efecto), brand narrative, naming, voice guidelines, design systems |
+| **M6** | `utopia-studio-cobuild-product` | 31 | Product & Technology — Impeccable design suite, deployment (Railway, Vercel), production readiness, architecture, ML |
+| **M7** | `utopia-studio-cobuild-gtm` | 30 | Go-to-Market — positioning, hook, copywriting, content, BD, outbound sales, distribution |
+| **M8** | `utopia-studio-cobuild-fundraising` | 16 | Fundraising Prep — pitch decks (Utopia-branded), financial models, valuations, competitive analysis, data packs |
+| **M9** | `utopia-studio-cobuild-ops` | 27 | Operations & Finance — North Star metrics, unit economics, retention, churn, onboarding CRO, pricing, roadmap |
 
-Mapped directly to the Utopia Venture Engine framework — each pack covers one layer of building a company.
+### Funds packs (for Utopia Capital's internal team)
 
-| Pack | Skills | Venture Engine layer |
-|------|--------|----------------------|
-| **utopia-discovery-pack** | 23 | **Value & IP Creation** — discovery interviews, JTBD, opportunity solution trees, problem framing, PRDs, canvases |
-| **utopia-narrative-pack** | 24 | **Go To Market & Narrative** — positioning, copywriting, content strategy, GTM motions, brand narrative, hook |
-| **utopia-distribution-pack** | 25 | **Partners & Trust** — BD agents, outbound sales, cold outreach, lead enrichment, pipeline management, CRM |
-| **utopia-retention-pack** | 28 | **Retention & Value Scaling** — North Star metrics, unit economics (CAC, LTV, cohorts), churn prevention, onboarding CRO |
-| **utopia-ops-pack** | 14 | **Core Operations** — legal (NDA, privacy policy), hiring, pricing, capital structure, valuation |
+Not for fellows — these are for the investment team doing DD, modeling, and research.
 
-Skills are sourced from the best public repos for each layer:
-- **Discovery:** [phuryn/pm-skills](https://github.com/phuryn/pm-skills), [deanpeters/Product-Manager-Skills](https://github.com/deanpeters/Product-Manager-Skills)
-- **Narrative:** [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills), [chadboyda/agent-gtm-skills](https://github.com/chadboyda/agent-gtm-skills)
-- **Distribution:** [gtmagents/gtm-agents](https://github.com/gtmagents/gtm-agents), [chadboyda/agent-gtm-skills](https://github.com/chadboyda/agent-gtm-skills), [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills)
-- **Retention:** [phuryn/pm-skills](https://github.com/phuryn/pm-skills), [lyndonkl/claude](https://github.com/lyndonkl/claude), [Digidai/product-manager-skills](https://github.com/Digidai/product-manager-skills), [gtmagents/gtm-agents](https://github.com/gtmagents/gtm-agents)
-- **Ops:** [phuryn/pm-skills](https://github.com/phuryn/pm-skills), [lyndonkl/claude](https://github.com/lyndonkl/claude)
+| Pack | # | What it covers |
+|------|---|----------------|
+| **utopia-funds-dd** | 6 | Technical Due Diligence — tech audits, security review, TDD reports, infra review |
+| **utopia-funds-finance** | 16 | Financial Modeling & IB Toolkit — DCF, LBO, comps, tear sheets, deck work |
+| **utopia-funds-markets** | 10 | Capital Markets — bonds, FX, options, macro rates, equity research (for fellows going sell-side) |
+| **utopia-funds-research** | 6 | Research & Knowledge Management — Obsidian, markdown, web extraction, papers |
+
+### Skill sources
+
+Skills across the cobuild packs come from the best public repos for each layer:
+- **Discovery (M2):** [phuryn/pm-skills](https://github.com/phuryn/pm-skills), [deanpeters/Product-Manager-Skills](https://github.com/deanpeters/Product-Manager-Skills)
+- **Concept (M3):** [phuryn/pm-skills](https://github.com/phuryn/pm-skills), [deanpeters/Product-Manager-Skills](https://github.com/deanpeters/Product-Manager-Skills)
+- **Brand (M5):** [pablostanley/efecto-plugin](https://github.com/pablostanley/efecto-plugin), [pbakaus/impeccable](https://github.com/pbakaus/impeccable), [emilkowalski/skill](https://github.com/emilkowalski/skill), [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill)
+- **Product (M6):** [osmanio2/vibe-to-prod](https://github.com/osmanio2/vibe-to-prod), [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills), Railway skills, [pbakaus/impeccable](https://github.com/pbakaus/impeccable)
+- **GTM (M7):** [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills), [chadboyda/agent-gtm-skills](https://github.com/chadboyda/agent-gtm-skills), [gtmagents/gtm-agents](https://github.com/gtmagents/gtm-agents)
+- **Fundraising (M8) & Funds Finance:** [anthropics/financial-services-plugins](https://github.com/anthropics/financial-services-plugins), plus proprietary Utopia `pitch-deck` and `technical-dd`
+- **Ops (M9):** [phuryn/pm-skills](https://github.com/phuryn/pm-skills), [lyndonkl/claude](https://github.com/lyndonkl/claude), [Digidai/product-manager-skills](https://github.com/Digidai/product-manager-skills), [gtmagents/gtm-agents](https://github.com/gtmagents/gtm-agents)
 
 ### Honest gap map
 
 The public ecosystem is richest for GTM and product discovery, decent for financial modeling, and weakest for:
 
-1. **Agentic customer ops & NPS tracking** — no strong dedicated skill repo exists
-2. **GCC/MENA-aware legal, compliance, and cap table** — nothing jurisdiction-specific
+1. **Agentic customer ops & NPS tracking** (M9 gap) — no strong dedicated skill repo exists
+2. **GCC/MENA-aware legal, compliance, and cap table** (M4 gap) — nothing jurisdiction-specific
 
 Both are candidates to build as proprietary Studio skills — high-value, jurisdiction-specific, unlikely to appear in the open ecosystem.
 
