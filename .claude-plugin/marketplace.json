@@ -1,0 +1,41 @@
+{
+  "name": "skills",
+  "owner": {
+    "name": "Karan Pinto",
+    "email": "karanmjpinto@gmail.com",
+    "url": "https://github.com/karanmjpinto"
+  },
+  "description": "Karan Pinto's curated skill marketplace for Utopia Capital teams and fellows",
+  "plugins": [
+    {
+      "name": "utopia-dd-pack",
+      "source": "./plugins/utopia-dd-pack",
+      "description": "Technical due diligence and investment evaluation — assess whether a startup's tech works, scales, and is secure",
+      "version": "1.0.0"
+    },
+    {
+      "name": "utopia-design-pack",
+      "source": "./plugins/utopia-design-pack",
+      "description": "Full UI/UX design toolkit — 32 skills spanning planning, building, critiquing, and polishing frontend interfaces",
+      "version": "1.0.0"
+    },
+    {
+      "name": "utopia-deploy-pack",
+      "source": "./plugins/utopia-deploy-pack",
+      "description": "Ship to production — Railway, Vercel, CI/CD, monitoring, and deployment readiness",
+      "version": "1.0.0"
+    },
+    {
+      "name": "utopia-ml-pack",
+      "source": "./plugins/utopia-ml-pack",
+      "description": "Machine learning and AI workflows — HuggingFace training, evals, datasets, and Transformers.js",
+      "version": "1.0.0"
+    },
+    {
+      "name": "utopia-content-pack",
+      "source": "./plugins/utopia-content-pack",
+      "description": "Knowledge management and research — Obsidian vaults, markdown, canvases, and web extraction for fellows",
+      "version": "1.0.0"
+    }
+  ]
+}

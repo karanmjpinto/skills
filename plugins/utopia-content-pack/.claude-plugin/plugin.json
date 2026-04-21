@@ -1,0 +1,7 @@
+{
+  "name": "utopia-content-pack",
+  "description": "Knowledge management and research — Obsidian vaults, markdown, canvases, and web extraction for fellows",
+  "version": "1.0.0",
+  "author": { "name": "Karan Pinto" },
+  "keywords": ["obsidian","knowledge","research","markdown","content"]
+}

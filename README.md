@@ -1,8 +1,36 @@
 # Skills
 
-A curated collection of AI coding skills for Claude Code, Cursor, Windsurf, and any tool that supports the [Agent Skills Standard](https://github.com/runkids/skillshare). Clone this repo and point your AI tools at it to get production-grade workflows out of the box.
+A curated collection of AI coding skills for Claude Code, Cursor, Windsurf, and any tool that supports the [Agent Skills Standard](https://github.com/runkids/skillshare). Also serves as a **Claude Code plugin marketplace** with curated packs for Utopia Capital teams and fellows.
 
-## Quick Start
+## Install as a Plugin Marketplace (Recommended for Teams)
+
+This repo is a Claude Code plugin marketplace. Team members register it once, then install only the packs they need.
+
+**1. Register the marketplace (one-time):**
+
+```
+/plugin marketplace add karanmjpinto/skills
+```
+
+**2. Install a pack:**
+
+```
+/plugin install utopia-dd-pack@skills          # Due diligence & investment eval
+/plugin install utopia-design-pack@skills      # 32 UI/UX design skills
+/plugin install utopia-deploy-pack@skills      # Railway + Vercel + production
+/plugin install utopia-ml-pack@skills          # HuggingFace & ML tools
+/plugin install utopia-content-pack@skills     # Obsidian & research
+```
+
+**3. Update packs as they change:**
+
+```
+/plugin marketplace update skills
+```
+
+See [Available Packs](#available-packs) below for what each pack includes.
+
+## Install All Skills (Individual / Power Users)
 
 **One-line install (with [skillshare](https://github.com/runkids/skillshare)):**
 
@@ -40,6 +68,44 @@ cp -r skills/huggingface/* ~/.claude/skills/
 # Only want production readiness?
 cp -r skills/production-readiness/* ~/.claude/skills/
 ```
+
+## Available Packs
+
+Each pack bundles a set of skills for a specific workflow. Install only what you need — keeps your context lean.
+
+| Pack | Skills | Use case |
+|------|--------|----------|
+| **utopia-dd-pack** | 6 | Technical due diligence — assess whether a startup's tech works, scales, and is secure |
+| **utopia-design-pack** | 32 | Full UI/UX toolkit — plan, build, critique, and polish frontend interfaces |
+| **utopia-deploy-pack** | 25 | Ship to production — Railway, Vercel, CI/CD, monitoring, deployment readiness |
+| **utopia-ml-pack** | 11 | ML workflows — HuggingFace training, evals, datasets, Transformers.js |
+| **utopia-content-pack** | 5 | Knowledge management — Obsidian vaults, markdown, canvases, web extraction |
+
+See [`packs.config.json`](./packs.config.json) for the exact skill list in each pack.
+
+### Adding or Editing Packs
+
+Packs are defined in [`packs.config.json`](./packs.config.json). To add a new pack or move skills between packs:
+
+1. Edit `packs.config.json` — add a pack entry or update the `skills` array
+2. Run `./build-packs.sh` — regenerates `.claude-plugin/marketplace.json` and `plugins/`
+3. Commit and push — team members get the update via `/plugin marketplace update skills`
+
+Example: add a new `utopia-research-pack`:
+
+```jsonc
+{
+  "name": "utopia-research-pack",
+  "description": "Research and analysis skills for fellows",
+  "version": "1.0.0",
+  "keywords": ["research", "analysis"],
+  "skills": ["defuddle", "huggingface-papers"]
+}
+```
+
+Then `./build-packs.sh && git add -A && git commit -m "Add research pack" && git push`.
+
+Requires `jq` (`brew install jq`).
 
 ## What's Included
 

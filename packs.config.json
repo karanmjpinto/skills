@@ -1,0 +1,134 @@
+{
+  "$schema": "./packs.schema.json",
+  "_comment": "Edit this file to add or modify packs. Then run ./build-packs.sh to regenerate the marketplace. Each pack's skills are COPIED from /skills/** into /plugins/<pack>/skills/.",
+  "marketplace": {
+    "name": "skills",
+    "description": "Karan Pinto's curated skill marketplace for Utopia Capital teams and fellows",
+    "owner": {
+      "name": "Karan Pinto",
+      "email": "karanmjpinto@gmail.com",
+      "url": "https://github.com/karanmjpinto"
+    }
+  },
+  "packs": [
+    {
+      "name": "utopia-dd-pack",
+      "description": "Technical due diligence and investment evaluation — assess whether a startup's tech works, scales, and is secure",
+      "version": "1.0.0",
+      "keywords": ["due-diligence", "investment", "evaluation", "audit"],
+      "skills": [
+        "technical-dd",
+        "repo-scanner",
+        "security-auditor",
+        "devops-advisor",
+        "cost-optimizer",
+        "pitch-deck"
+      ]
+    },
+    {
+      "name": "utopia-design-pack",
+      "description": "Full UI/UX design toolkit — 32 skills spanning planning, building, critiquing, and polishing frontend interfaces",
+      "version": "1.0.0",
+      "keywords": ["design", "ui", "ux", "frontend", "animation"],
+      "skills": [
+        "impeccable",
+        "shape",
+        "critique",
+        "audit",
+        "layout",
+        "typeset",
+        "colorize",
+        "animate",
+        "polish",
+        "adapt",
+        "optimize",
+        "clarify",
+        "distill",
+        "delight",
+        "bolder",
+        "quieter",
+        "overdrive",
+        "design-taste-frontend",
+        "high-end-visual-design",
+        "redesign-existing-projects",
+        "industrial-brutalist-ui",
+        "minimalist-ui",
+        "stitch-design-taste",
+        "full-output-enforcement",
+        "ui-ux-pro-max",
+        "sketch-prompt",
+        "emil-design-eng",
+        "architecture-diagram",
+        "diagram-design",
+        "efecto-web-design",
+        "efecto-graphic-design",
+        "efecto-social-media"
+      ]
+    },
+    {
+      "name": "utopia-deploy-pack",
+      "description": "Ship to production — Railway, Vercel, CI/CD, monitoring, and deployment readiness",
+      "version": "1.0.0",
+      "keywords": ["deployment", "railway", "vercel", "production", "devops"],
+      "skills": [
+        "railway-new",
+        "railway-deploy",
+        "railway-deployment",
+        "railway-status",
+        "railway-service",
+        "railway-environment",
+        "railway-database",
+        "railway-domain",
+        "railway-templates",
+        "railway-projects",
+        "railway-metrics",
+        "railway-central-station",
+        "railway-railway-docs",
+        "deploy-to-vercel",
+        "vercel-cli-with-tokens",
+        "vercel-react-best-practices",
+        "vercel-composition-patterns",
+        "vercel-react-native-skills",
+        "web-design-guidelines",
+        "deployment-engineer",
+        "prompt-engineer",
+        "repo-structurer",
+        "monitoring-setup",
+        "integration-linker",
+        "interface-craft"
+      ]
+    },
+    {
+      "name": "utopia-ml-pack",
+      "description": "Machine learning and AI workflows — HuggingFace training, evals, datasets, and Transformers.js",
+      "version": "1.0.0",
+      "keywords": ["ml", "ai", "huggingface", "training", "transformers"],
+      "skills": [
+        "hf-cli",
+        "huggingface-llm-trainer",
+        "huggingface-vision-trainer",
+        "huggingface-community-evals",
+        "huggingface-datasets",
+        "huggingface-gradio",
+        "huggingface-papers",
+        "huggingface-paper-publisher",
+        "huggingface-tool-builder",
+        "huggingface-trackio",
+        "transformers-js"
+      ]
+    },
+    {
+      "name": "utopia-content-pack",
+      "description": "Knowledge management and research — Obsidian vaults, markdown, canvases, and web extraction for fellows",
+      "version": "1.0.0",
+      "keywords": ["obsidian", "knowledge", "research", "markdown", "content"],
+      "skills": [
+        "obsidian-cli",
+        "obsidian-markdown",
+        "obsidian-bases",
+        "json-canvas",
+        "defuddle"
+      ]
+    }
+  ]
+}

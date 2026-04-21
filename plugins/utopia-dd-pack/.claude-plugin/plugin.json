@@ -1,0 +1,7 @@
+{
+  "name": "utopia-dd-pack",
+  "description": "Technical due diligence and investment evaluation — assess whether a startup's tech works, scales, and is secure",
+  "version": "1.0.0",
+  "author": { "name": "Karan Pinto" },
+  "keywords": ["due-diligence","investment","evaluation","audit"]
+}
