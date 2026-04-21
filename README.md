@@ -2,6 +2,8 @@
 
 A curated collection of AI coding skills for Claude Code, Cursor, Windsurf, and any tool that supports the [Agent Skills Standard](https://github.com/runkids/skillshare). Also serves as a **Claude Code plugin marketplace** with curated packs for Utopia Capital teams and fellows.
 
+> 📘 **Team / fellow / funds member?** Start with the [**Team Guide**](./GUIDE.md) — a step-by-step, non-technical intro to installing and using this marketplace. Share the link freely.
+
 ## Install as a Plugin Marketplace (Recommended for Teams)
 
 This repo is a Claude Code plugin marketplace. Team members register it once, then install only the packs they need.
